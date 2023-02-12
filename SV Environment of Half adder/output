@@ -1,0 +1,33 @@
+Compiler version S-2021.09; Runtime version S-2021.09;  Feb 12 07:24 2023
+==========================
+generator
+==========================
+a=0,b=1
+sum=0,carry=0
+==========================
+==========================
+driver
+==========================
+a=0,b=1
+sum=0,carry=0
+==========================
+==========================
+monitor1
+==========================
+a=0,b=1
+sum=1,carry=0
+==========================
+Result is as Expected
+==========================
+scoreboard
+==========================
+a=0,b=1
+sum=1,carry=0
+==========================
+$finish called from file "environment.sv", line 35.
+$finish at simulation time                    1
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1 ns
+CPU Time:      0.740 seconds;       Data structure size:   0.0Mb
+Sun Feb 12 07:24:25 2023
+Done
