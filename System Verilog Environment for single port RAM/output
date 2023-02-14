@@ -1,0 +1,83 @@
+Compiler version S-2021.09; Runtime version S-2021.09;  Feb 14 13:04 2023
+---[Driver] Reset started------
+----------[DRIVER] Reset ended--------
+--------[Trans]post_randomize----
+	 addr=0	 wr_en=1	 wdata=6b
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=0	 rd_en=1
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=1	 wr_en=1	 wdata=7e
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=1	 rd_en=1
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=2	 wr_en=1	 wdata=85
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=2	 rd_en=1
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=3	 wr_en=1	 wdata=fb
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=3	 rd_en=1
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=0	 wr_en=1	 wdata=52
+--------------------------------------
+--------[Trans]post_randomize----
+	 addr=0	 rd_en=1
+--------------------------------------
+---------[Driver -Transfer: 0]---
+	ADDR=0 	DATA=6b
+--------------------------------
+---------[Driver -Transfer: 1]---
+	ADDR=0 	RDATA=6b
+--------------------------------
+---------[Driver -Transfer: 2]---
+	ADDR=1 	DATA=7e
+--------------------------------
+---------[Driver -Transfer: 3]---
+[SCB-PASS] addr=0,
+ Data::Expected=6b Actual =6b
+	ADDR=1 	RDATA=7e
+--------------------------------
+---------[Driver -Transfer: 4]---
+	ADDR=2 	DATA=85
+--------------------------------
+---------[Driver -Transfer: 5]---
+	ADDR=2 	RDATA=85
+--------------------------------
+---------[Driver -Transfer: 6]---
+	ADDR=3 	DATA=fb
+--------------------------------
+---------[Driver -Transfer: 7]---
+[SCB-PASS] addr=1,
+ Data::Expected=7e Actual =7e
+	ADDR=3 	RDATA=fb
+--------------------------------
+---------[Driver -Transfer: 8]---
+	ADDR=0 	DATA=52
+--------------------------------
+---------[Driver -Transfer: 9]---
+	ADDR=0 	RDATA=52
+--------------------------------
+[SCB-PASS] addr=2,
+ Data::Expected=85 Actual =85
+[SCB-PASS] addr=3,
+ Data::Expected=fb Actual =fb
+[SCB-PASS] addr=0,
+ Data::Expected=52 Actual =52
+$finish called from file "environment.sv", line 49.
+$finish at simulation time                  505
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 505 ns
+CPU Time:      0.660 seconds;       Data structure size:   0.0Mb
+Tue Feb 14 13:04:05 2023
+Finding VCD file...
+./dump.vcd
+[2023-02-14 13:04:05 EST] Opening EPWave...
+Done
